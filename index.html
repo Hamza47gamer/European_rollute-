@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Roulette</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="roulette-game">
+        <h1>European Roulette</h1>
+        <div id="wheel-container">
+            <canvas id="roulette-wheel"></canvas>
+            <div id="ball"></div>
+        </div>
+        <div id="betting-table">
+            <h3>Place Your Bets</h3>
+            <div id="chips">
+                <button class="chip" data-value="20">20</button>
+                <button class="chip" data-value="50">50</button>
+                <button class="chip" data-value="200">200</button>
+                <button class="chip" data-value="500">500</button>
+                <button class="chip" data-value="1000">1000</button>
+                <button class="chip" data-value="3000">3000</button>
+                <button class="chip" data-value="10000">10000</button>
+            </div>
+            <button id="spin-button">Spin</button>
+        </div>
+        <div id="history">
+            <h3>Previous Results</h3>
+            <ul id="previous-results"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
